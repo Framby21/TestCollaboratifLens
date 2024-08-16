@@ -1,0 +1,52 @@
+- !<Material/6ce02a2e-43d4-41a7-a8ce-d08de613ef17>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> fcca5a4b-af65-4e64-94a9-a77fb4e4dbd7
+- !<PassInfo/fcca5a4b-af65-4e64-94a9-a77fb4e4dbd7>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - BLEND_MODE_REALISTIC
+    - ENABLE_CUSTOM_BLEND
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - sc_BlendMode_Custom
+  BlendMode: Realistic
+  Properties:
+    Port_Default_N204:
+      typeIdx: 1
+      value: 1.000000
+    Port_Default_N369:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.200000, y: 0.700000, z: 0.500000, w: 0.300000}
+    correctedIntensity:
+      typeIdx: 1
+      value: 0.000000
+    intensityTexture:
+      typeIdx: 9
+      value:
+        id: ffffffff-ffff-ffff-ffff-ffffffffffff
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+  Pass: !<reference> 6d374bd3-28fa-41cd-bd8c-b38bb88b2e25
