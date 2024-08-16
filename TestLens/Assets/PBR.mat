@@ -1,0 +1,70 @@
+- !<Material/2ed3f0a1-8b31-4b95-bebb-fa81e12ad253>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> e0509fc3-fd0c-43a1-b0fd-f5c0c3d8bcb3
+- !<PassInfo/e0509fc3-fd0c-43a1-b0fd-f5c0c3d8bcb3>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_BASE_TEX
+    - ENABLE_NORMALMAP
+    - ENABLE_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_Center_N016:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    Port_Emissive_N006:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_SpecularAO_N006:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 4f30c21a-bf8a-4854-9371-8c600fba8478
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+    materialParamsTex:
+      typeIdx: 9
+      value:
+        id: e1c078a6-bb07-4c49-9bd3-a6710de76b82
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+    normalTex:
+      typeIdx: 9
+      value:
+        id: 6624d774-1b60-49ab-a858-cc6d0f663d31
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+    uvScale:
+      typeIdx: 1
+      value: 1.000000
+  Pass: !<reference> 4a204328-b012-4c51-99e1-d5fab99fb7b2
