@@ -8,8 +8,8 @@
     userLayers:
       []
     HasOrtho: true
-  RenderOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
-  RenderPreviewOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  RenderOutput: !<reference> e9c1c844-7fc5-4b32-8fc6-58006d88ae37
+  RenderPreviewOutput: !<reference> e9c1c844-7fc5-4b32-8fc6-58006d88ae37
   RenderOverlayOutput: !<reference> 00000000-0000-0000-0000-000000000000
   PhysicsRootWorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/1add56f0-3852-4e67-a528-6a757721cd17>
@@ -185,7 +185,7 @@
   DeviceProperty: All
   AspectPreset: Custom
   OitLayers: NoOit
-  RenderTarget: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  RenderTarget: !<reference> e9c1c844-7fc5-4b32-8fc6-58006d88ae37
   DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000

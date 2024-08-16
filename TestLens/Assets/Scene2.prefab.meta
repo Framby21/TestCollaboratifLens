@@ -1,0 +1,242 @@
+- !<AssetImportMetadata/2f34315e-65cc-41d7-893e-859f6d863256>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 2aae5c09-de08-4e3a-88d9-272c0251cd90
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 2aae5c09-de08-4e3a-88d9-272c0251cd90
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 410d9294-579f-4d25-9d93-b1054fbb05f0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/9e69008a-df12-44c4-9191-1399e96bbf63>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/315c5692-c5b1-437f-b424-3cfaed15b175>
+  PrefabRemaps:
+    []
+  Name: Light
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 40.000000, y: 85.000000, z: 20.000000}
+    rotation: {x: 70.000000, y: 10.000000, z: 150.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ee70ff91-19fc-4294-96a2-0d9e346ebaaf
+- !<SceneObject/3a700f6b-a86b-475d-b885-f91c1ceeaa52>
+  PrefabRemaps:
+    []
+  Name: Script2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6864de38-631f-45de-ba2c-73d0c3c62a59
+- !<ObjectPrefabAssetData/410d9294-579f-4d25-9d93-b1054fbb05f0>
+  SourceRemaps:
+    - 0ad6ba25-981a-4b9c-98ee-e76018acf651: 3a700f6b-a86b-475d-b885-f91c1ceeaa52
+    - 4860aa66-52c8-4b29-8a25-b432efc02e7c: a685d0dc-0cf8-46eb-9265-ca254cca95fa
+    - 4c555e67-e796-494d-8b23-ea382d8df776: 315c5692-c5b1-437f-b424-3cfaed15b175
+    - 65bcb386-6859-442d-91dc-fb97c9701b9d: 4dc8b5f9-770e-43e9-9b18-bd12745db49a
+    - 6e56bb5b-b7f9-478f-825d-15950b48b5dd: 4169a20d-1320-49ca-9a5c-2f71658ffbf3
+    - 7b8d5079-520a-466a-b516-bfa6a704a341: ee70ff91-19fc-4294-96a2-0d9e346ebaaf
+    - 9fbac6af-6311-450a-92ba-722cebf4a2aa: 97d1e0d7-d64e-4428-9055-f4bfb41a8e5d
+    - c0263ab8-cb35-4ac1-afa1-dc58043631bb: ae37c5c4-536f-48a6-839e-e9991ef7c0de
+    - d7d8b569-5d7d-4cf6-90a6-2e2ae89fb691: 6864de38-631f-45de-ba2c-73d0c3c62a59
+    - eaac49de-f53d-451b-b9b7-8b113694eec3: 77ae2c0a-096a-46c6-9812-a89872be7531
+  SourceState: !<own> 695d77a1-1000-43ce-b0a1-50139f42a935
+- !<Camera/4169a20d-1320-49ca-9a5c-2f71658ffbf3>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  renderLayer: 1
+  MipmapLevel: 0
+  RenderOrder: 0
+  Size: 20.000000
+  Near: 1.000000
+  Far: 1000.000000
+  Fov: 63.541019
+  ClearColor: !<CameraClearColor/00000000-0000-0000-0000-000000000000>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth/00000000-0000-0000-0000-000000000000>
+    Mode: Value
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Perspective
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/4dc8b5f9-770e-43e9-9b18-bd12745db49a>
+  PrefabRemaps:
+    []
+  Name: Lighting
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ae37c5c4-536f-48a6-839e-e9991ef7c0de
+    - !<own> 315c5692-c5b1-437f-b424-3cfaed15b175
+  Components:
+    []
+- !<ScriptComponent/6864de38-631f-45de-ba2c-73d0c3c62a59>
+  PrefabRemaps:
+    []
+  Name: Script2
+  Enabled: true
+  ScriptAsset: !<reference> fc6548df-1b29-4c92-b6ce-e4961ca87d5f
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefab/695d77a1-1000-43ce-b0a1-50139f42a935>
+  PackagePath: ""
+  objects:
+    - !<own> 77ae2c0a-096a-46c6-9812-a89872be7531
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/77ae2c0a-096a-46c6-9812-a89872be7531>
+  PrefabRemaps:
+    []
+  Name: Scene2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3a700f6b-a86b-475d-b885-f91c1ceeaa52
+    - !<own> 4dc8b5f9-770e-43e9-9b18-bd12745db49a
+    - !<own> 97d1e0d7-d64e-4428-9055-f4bfb41a8e5d
+  Components:
+    []
+- !<SceneObject/97d1e0d7-d64e-4428-9055-f4bfb41a8e5d>
+  PrefabRemaps:
+    []
+  Name: Camera Object
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4169a20d-1320-49ca-9a5c-2f71658ffbf3
+- !<LightSource/a685d0dc-0cf8-46eb-9265-ca254cca95fa>
+  PrefabRemaps:
+    []
+  Name: Light Source
+  Enabled: true
+  renderLayer: 1835007
+  LightType: EnvMap
+  Intensity: 1.000000
+  CastShadows: false
+  ShadowDensity: 1.000000
+  ShadowBlurRadius: 0.000000
+  ShadowTextureSize: 512
+  AutoLightSourcePosition: false
+  AutoShadowFrustumSize: false
+  AutoShadowFrustumSizeExtend: 2.000000
+  ShadowFrustumSize: 30.000000
+  ShadowFrustumNearClipPlane: 1.000000
+  ShadowFrustumFarClipPlane: 1000.000000
+  UseEnvMapFromCamera: false
+  EnvMapFromCameraMode: Auto
+  UseEstimation: false
+  EstimationIntensity: 1.000000
+  EstimationSharpness: 1.000000
+  EnvMapExposure: 1.000000
+  EnvMapRotation: 0.000000
+  DiffuseEnvTexture: !<reference> 2013a19b-93c1-4f21-b7ea-876a33550c7b
+  SpecularEnvTexture: !<reference> d795fd46-e16b-4cb9-8dfb-4ef227298f7a
+  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  InnerConeAngle: 0.000000
+  OuterConeAngle: 45.000000
+  DecayType: None
+  DecayLimit: false
+  DecayRange: 40.000000
+- !<SceneObject/ae37c5c4-536f-48a6-839e-e9991ef7c0de>
+  PrefabRemaps:
+    []
+  Name: Envmap
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 65.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a685d0dc-0cf8-46eb-9265-ca254cca95fa
+- !<LightSource/ee70ff91-19fc-4294-96a2-0d9e346ebaaf>
+  PrefabRemaps:
+    []
+  Name: Light Source
+  Enabled: true
+  renderLayer: 1835007
+  LightType: Directional
+  Intensity: 1.000000
+  CastShadows: false
+  ShadowDensity: 0.440000
+  ShadowBlurRadius: 4.000000
+  ShadowTextureSize: 512
+  AutoLightSourcePosition: true
+  AutoShadowFrustumSize: true
+  AutoShadowFrustumSizeExtend: 2.000000
+  ShadowFrustumSize: 30.000000
+  ShadowFrustumNearClipPlane: 1.000000
+  ShadowFrustumFarClipPlane: 1000.000000
+  UseEnvMapFromCamera: false
+  EnvMapFromCameraMode: Auto
+  UseEstimation: false
+  EstimationIntensity: 1.000000
+  EstimationSharpness: 1.000000
+  EnvMapExposure: 1.000000
+  EnvMapRotation: 0.000000
+  DiffuseEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SpecularEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  InnerConeAngle: 0.000000
+  OuterConeAngle: 45.000000
+  DecayType: None
+  DecayLimit: false
+  DecayRange: 40.000000
